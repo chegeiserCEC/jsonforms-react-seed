@@ -1,6 +1,18 @@
 {
+<<<<<<< Updated upstream
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true
 }
+=======
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "liveServer.settings.port": 5501,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+} 
+>>>>>>> Stashed changes

@@ -22,11 +22,41 @@
     },
     "recurrence": {
       "type": "string",
-      "enum": ["Never", "Daily", "Weekly", "Monthly"]
+      "enum": [
+        "Never",
+        "Daily",
+        "Weekly",
+        "Monthly"
+      ]
     },
-    "recurrence_interval": {
-      "type": "integer"
+    "patient": {
+      "type": "string"
+    },
+    "medication": {
+      "type": "string"
+    },
+    "dose": {
+      "type": "integer",
+      "maximum": 5000
+    },
+    "units": {
+      "type": "string",
+      "enum": [
+        "mg",
+        "ml"
+      ]
+    },
+    "timeTaken": {
+      "type": "string",
+      "format": "time"
+    },
+    "dateTaken": {
+      "type": "string",
+      "format": "date"
     }
   },
-  "required": ["name", "due_date"]
+  "required": [
+    "name",
+    "due_date"
+  ]
 }

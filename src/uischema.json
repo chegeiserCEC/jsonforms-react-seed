@@ -50,6 +50,40 @@
       "options": {
         "multi": true
       }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/patient"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/medication"
+    },
+    {
+      "type": "HorizontalLayout",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/dose"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/units"
+        }
+      ]
+    },
+    {
+      "type": "HorizontalLayout",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/timeTaken"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/dateTaken"
+        }
+      ]
     }
   ]
 }
